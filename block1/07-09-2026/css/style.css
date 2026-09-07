@@ -1,0 +1,41 @@
+body {
+	margin: 0 16px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 50px;
+}
+
+body h1 {
+	text-align: center;
+	margin: 32px 0 0 0;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.wrap_container {
+	flex: 1;
+}
+
+.wrap_container h2,
+.wrap_container p {
+	margin: 0 0 18px 0;
+}
+
+
+.wrap_container button {
+	border-style: none;
+	background-color: #EFD262;
+	color: #343A73;
+	padding: 12px 24px;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+	border-radius: 18px;
+}

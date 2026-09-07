@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DOM Practice Project</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<h1>DOM Practice Project</h1>
+	
+	<main>
+
+		<!-- <div class="wrap_container">
+			<h2>Example 1. <br class="new_line"> Change Text Using an ID</h2>
+			<p id="intro">This is the introduction paragraph.</p>
+			<button onclick="updateIntro()">Update Intro</button>
+		</div>
+
+		<div class="wrap_container">
+			<h2>Example 2. <br class="new_line"> Change Style Using an ID</h2>
+			<p id="message">This paragraph will change colour.</p>
+			<button onclick="changeColorText ()">Change Text Colour</button>
+		</div>
+
+		<div class="wrap_container">
+			<h2>Example 3. <br class="new_line"> Select Using a Class</h2>
+			<p class="highlight">This paragraph uses the highlight class.</p>
+			<button onclick="changeTextFontWeight ()">Make Text Bold</button>
+		</div> -->
+
+
+		<h2>Course Title</h2>
+
+		<p id="studentName">Student name will appear here.</p>
+
+		<p id="courseTitle">Course title will appear here.</p>
+
+	</main>
+	
+	<script>
+		const name = "Aleksei";
+		const studentName = document.querySelector("#studentName");
+		studentName.textContent = name;
+
+
+		const course = "HND Web Dewelopment";
+		const courseTitle = document.querySelector("#courseTitle");
+		courseTitle.textContent = course;
+	</script>
+
+	<script src="./js/script.js"></script>
+
+</body>
+</html>
