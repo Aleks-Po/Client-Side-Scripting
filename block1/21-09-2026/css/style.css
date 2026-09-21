@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+	width: 300px;
+	margin: 0 auto;
+	
+}
+
+h1 {
+	text-align: center;
+	margin: 0 0 40px 0 ;
+}
+
+.name_container,
+.language_container {
+	margin: 0 0 16px 0;
+}
+
+
+input {
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	height: 40px;
+	border-radius: 10px;
+	padding: 0 10px;
+	width: 100%;
+	font-size: 15px;
+	font-family: inherit;
+	box-sizing: border-box;
+}
+
+button {
+	border-style: none;
+	padding: 12px 24px;
+	background-color: #3b9aa7;
+	color: #ffffff;
+	font-size: 17px;
+	text-transform: uppercase;
+	border-radius: 50px;
+}
+
