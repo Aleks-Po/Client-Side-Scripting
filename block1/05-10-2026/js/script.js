@@ -30,3 +30,10 @@ function clearDataUser() {
 	document.getElementById('message').textContent = '';
 	document.getElementById('userProgrammingLanguageMessage').textContent = '';
 }
+
+
+function showWelcome(name) {
+	let message = document.querySelector('#message');
+	message.textContent = `Welcome ${name}`;
+}
+showWelcome("Aleksei");
