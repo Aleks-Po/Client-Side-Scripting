@@ -37,9 +37,12 @@ function timeTable() {
 	let output = "";
 
 	for (let counter = 1; counter <= 10; counter ++ ) {
-		output += `${counter*number}<br>`;
+		let result = number * counter;
+
+		output += `${number + ' x ' + counter + ' = ' + result}<br>`;
 		
 		
 	}
 	document.getElementById("output").innerHTML = output;
 }
+
