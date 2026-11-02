@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef4fb;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 520px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #b4c7e7;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #17365d;
+}
+
+label, input, button {
+    display: block;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 8px 0 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #17365d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#errorMessage {
+    color: #b00020;
+}
